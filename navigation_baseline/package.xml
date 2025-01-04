@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>navigation_baseline</name>
+  <version>0.0.0</version>
+  <description>Tiago navigating with the already existing social navigation layer.</description>
+  <maintainer email="carolin.schindler@uni-ulm.de">Carolin Schindler</maintainer>
+  <license>I do not claim any rights. However, notice the rights of the original authors below, please.</license>
+  <license>Apache License 2.0 for files in config folder (modified from pal_navgation_cfg_public/pal_navigation_cfg_tiago package)</license>
+  <license>Modified BSD for file in launch folder (modified from tiago_simulation/tiago_2dnav_gazebo package)</license>
+  <author email="carolin.schindler@uni-ulm.de">Carolin Schindler</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <exec_depend>tiago_gazebo</exec_depend>
+  <exec_depend>tiago_2dnav_gazebo</exec_depend>
+  <exec_depend>tiago_2dnav</exec_depend>
+  <exec_depend>people_publisher</exec_depend>
+
+</package>

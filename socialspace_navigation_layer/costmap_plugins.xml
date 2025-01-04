@@ -1,0 +1,7 @@
+<class_libraries>
+    <library path="lib/libsocialspace_layer">
+        <class type="socialspace_layer::SocialspaceLayer" base_class_type="costmap_2d::Layer">
+            <description>Changes the costmap for navigation considering the social space of humans</description>
+        </class>
+    </library>
+</class_libraries>

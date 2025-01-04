@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>people_publisher</name>
+  <version>0.0.0</version>
+  <description>"Mock nodes" sending people messages.</description>
+  <maintainer email="carolin.schindler@uni-ulm.de">Carolin Schindler</maintainer>
+  <license>BSD</license>
+  <author email="carolin.schindler@uni-ulm.de">Carolin Schindler</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+	
+  <depend>rospy</depend>
+  <depend>people_msgs</depend>
+
+</package>

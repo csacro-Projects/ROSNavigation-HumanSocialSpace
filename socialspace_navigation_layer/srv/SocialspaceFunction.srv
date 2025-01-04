@@ -1,0 +1,15 @@
+humans/HumanWithInteractions[] humans_with_interactions
+float64 min_x
+float64 min_y
+float64 max_x
+float64 max_y
+float64 resolution
+float64 personal_sigma_h_factor
+bool passing_right_hand_traffic
+float64 passing_sigma_h
+float64 passing_sigma_s
+float64 passing_sigma_r
+float64 activity_object_sigma
+float64 activity_human_sigma
+---
+float64[] costmap_values

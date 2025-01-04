@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>humans</name>
+  <version>0.0.0</version>
+  <description>Messages used by the socialspace_navigation_layer and "mock nodes" sending these.</description>
+  <maintainer email="carolin.schindler@uni-ulm.de">Carolin Schindler</maintainer>
+  <license>CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)</license>
+  <author email="carolin.schindler@uni-ulm.de">Carolin Schindler</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <depend>rospy</depend>
+  <depend>std_msgs</depend>
+
+  <build_depend>message_generation</build_depend>
+  <exec_depend>message_runtime</exec_depend>
+
+</package>

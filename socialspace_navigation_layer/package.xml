@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>socialspace_navigation_layer</name>
+  <version>0.0.0</version>
+  <description>New navigation layer considering the social space of humans.</description>
+  <maintainer email="carolin.schindler@uni-ulm.de">Carolin Schindler</maintainer>
+  <license>CC BY-NC-ND 4.0 (https://creativecommons.org/licenses/by-nc-nd/4.0/)</license>
+  <author email="carolin.schindler@uni-ulm.de">Carolin Schindler</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <depend>roscpp</depend>
+  <depend>rospy</depend>
+
+  <depend>std_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>humans</depend>
+
+  <depend>costmap_2d</depend>
+  <depend>dynamic_reconfigure</depend>
+
+  <depend>python-numpy</depend>
+  <depend>python-skimage</depend>
+
+  <build_depend>message_generation</build_depend>
+  <exec_depend>message_runtime</exec_depend>
+
+  <export>
+    <costmap_2d plugin="${prefix}/costmap_plugins.xml" />
+  </export>
+
+</package>
